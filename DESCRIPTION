@@ -1,0 +1,18 @@
+Package: pnlt
+Type: Package
+Title: Spatial Data package of La Tigra National Park, Honduras
+Version: 0.1.0
+Authors@R: c(
+    person("Klaus", "Wiese", email="klauswiese@hotmail.com", role = c("aut", "cre"))
+    )
+Maintainer: Klaus Wiese <klauswiese@hotmail.com>
+Description: Spatial data for La Tigra National Park, Honduras.
+Depends:
+    R (>= 3.1)
+Imports:
+    sf,
+    raster
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/klauswiese/pnlt
