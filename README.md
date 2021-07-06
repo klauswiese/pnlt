@@ -10,7 +10,7 @@ library(devtools)
 install_github("klauswiese/pnlt")
 ```
 
-All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with EPSG:4326 Coordinate reference system, here is a list of available objects:
+All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geographic coordinate reference system (EPSG:4326), here is a list of available objects:
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
