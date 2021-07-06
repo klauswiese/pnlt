@@ -22,7 +22,14 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 6 | PNLT limits | national park limits from 1980 |Unknown |polygon | Gaceta 1980 |
 | 7 | Geology | | 1:50,000 | polygon | IGN 1989 |
 | 8 | Water intake structures| Water dams | Unknown | polygon | AMITIGRA | 
-| 9 | Schools | Schools location within La Tigra | Unknown | points | Secretaría de Educación | 
+| 9 | Schools | Schools location within La Tigra | Unknown | points | Secretaría de Educación |
+| 10 | Hills |  | Unknown | points | IGN |
+| 11 | Site Names |  | Unknown | points | IGN |
+| 12 | Holdridge |  |  | polygon |  |
+| 13 | Rivers |  |  | Line | IGN |
+
+
+
 
 ***
 # Credits
