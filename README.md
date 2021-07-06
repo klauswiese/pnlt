@@ -20,7 +20,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 4 | Departments | Francisco Morazán department | Unknown | polygon | INE 2001| 
 | 5 | Micro-basins | Derived from the 30 meters SRTM digital elevation model | 1:114,000 | polygon | AMITIGRA 2020 | 
 | 6 | PNLT limits | national park limits from 1980 |Unknown |polygon | Gaceta 1980 |
-| 7 | Geology | | 1:50,000 | polygon | IGN 1989 |
+| 7 | Geology | Geology information | 1:50,000 | polygon | IGN 1989 |
 | 8 | Water intake structures| Water dams | Unknown | polygon | AMITIGRA | 
 | 9 | Schools | Schools location within La Tigra | Unknown | points | Secretaría de Educación |
 | 10 | Hills | Hills names and elevation | Unknown | points | IGN |
