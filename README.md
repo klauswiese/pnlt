@@ -14,7 +14,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Communities | Groups of houses and farms | Unknown | points | INE 2001|
+| 1 | Communities | Groups of houses and farms | Unknown | point | INE 2001|
 | 2 | Villages | Limits from villages | Unknown | polygon | INE 2001 |
 | 3 | Municipalities | Limits of 4 municipalities that convey in **La Tigra** | Unknown | polygon | INE 2001| 
 | 4 | Departments | Francisco Morazán department | Unknown | polygon | INE 2001| 
@@ -22,11 +22,11 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 6 | PNLT limits | national park limits from 1980 |Unknown |polygon | Gaceta 1980 |
 | 7 | Geology | Geology information | 1:50,000 | polygon | IGN 1989 |
 | 8 | Water intake structures| Water dams | Unknown | polygon | AMITIGRA | 
-| 9 | Schools | Schools location within La Tigra | Unknown | points | Secretaría de Educación |
-| 10 | Hills | Hills names and elevation | Unknown | points | IGN |
-| 11 | Site Names | Outstanding names | 1:50,000 | points | IGN |
+| 9 | Schools | Schools location within La Tigra | Unknown | point | Secretaría de Educación |
+| 10 | Hills | Hills names and elevation | Unknown | point | IGN |
+| 11 | Site Names | Outstanding names | 1:50,000 | point | IGN |
 | 12 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | Holdridge 1970 |
-| 13 | Rivers | Water bodies | 1:50,000 | Line | IGN |
+| 13 | Rivers | Water bodies | 1:50,000 | line | IGN |
 
 
 
