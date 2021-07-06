@@ -14,7 +14,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with EPS
 > 2. Villages: Polygons of limits from villages
 > 3. Municipalities: Polygons of limits of 4 municipalities that convey in **La Tigra**. 
 > 4. Departments: Polygon of Francisco Morazán department. 
-> 5. `**Micro-basins**`: Derived from the 30 meters SRTM digital elevation model. 
+> 5. **`Micro-basins`**: Derived from the 30 meters SRTM digital elevation model. 
 > 6. PNLT limits:
 > 7. Geology:  (1:1,000,000)
 > 8. Water intake structures: 
