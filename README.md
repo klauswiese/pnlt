@@ -1,4 +1,6 @@
 # pnlt
 Spatial data from La Tigra National Park, Honduras
 
-![center](inst/figures/pnlt.png?raw=true)
+![](inst/figures/pnlt.png?raw=true)
+
+Hexagon Sticker created using package [HexSticker](https://github.com/GuangchuangYu/hexSticker) by [Guangchuang YU](https://yulab-smu.top)
