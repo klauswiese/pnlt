@@ -1,7 +1,6 @@
 
 # pnlt <img src="inst/figures/pnlt.png" align="right" width="120"/>
 
-# pnlt
 Spatial data from La Tigra National Park, Honduras
 
 ***
