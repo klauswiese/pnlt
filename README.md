@@ -23,10 +23,10 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 7 | Geology | | 1:50,000 | polygon | IGN 1989 |
 | 8 | Water intake structures| Water dams | Unknown | polygon | AMITIGRA | 
 | 9 | Schools | Schools location within La Tigra | Unknown | points | Secretaría de Educación |
-| 10 | Hills |  | Unknown | points | IGN |
-| 11 | Site Names |  | Unknown | points | IGN |
-| 12 | Holdridge |  |  | polygon |  |
-| 13 | Rivers |  |  | Line | IGN |
+| 10 | Hills | Hills names and elevation | Unknown | points | IGN |
+| 11 | Site Names | Outstanding names | 1:50,000 | points | IGN |
+| 12 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | Holdridge 1970 |
+| 13 | Rivers | Water bodies | 1:50,000 | Line | IGN |
 
 
 
