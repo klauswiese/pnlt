@@ -72,31 +72,38 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 # Usage
 
 ```r
-# load pnlt package 
-library(pnlt)
+# Libraries ----  
+library(pnlt) #load pnlt package 
+library(tmap) #tmap for mapping
 
-# tmap to plot data
-library(tmap)
-
-tm_shape(Villages) +
-  tm_polygons(
-    "POBTOT2001",
-    border.col = "black",
-    title = "Population \n2001",
-    palette = "Reds",
-    alpha = 0.7,
-    legend.hist = TRUE,
-    legend.is.portrait = TRUE,
-    legend.z = 1
-  ) +
+#plot villages from PNLT
+tm_shape(Villages)  +
   tm_layout(
     "Village Population in PNLT",
     legend.title.size=1,
     legend.text.size = 0.6,
     legend.position = c("left","bottom"),
-    legend.bg.alpha = 1) +
-  tm_compass() +
-  tm_scale_bar()
+    legend.bg.alpha = 1
+    ) +
+  tm_fill("POBTOT2001",
+    border.col = "black",
+    style = 'jenks',
+    title = "Population \n2001",
+    palette = "Reds",
+    legend.hist = TRUE,
+    legend.z = 1
+  ) + 
+  tm_borders(col="black") +
+  tm_compass(position = c(0.85,0.8), 
+             type = "8star"
+             ) +
+  tm_scale_bar(position = c(0.7,0),
+               lwd = 0.4,
+               breaks = c(0,5),
+               color.light = "black",
+               text.size = 0.8
+               ) +
+  tm_grid(labels.cardinal = TRUE)
 ```
 
 <img src="inst/figures/aldeas.png" align="center" width="600"/>
