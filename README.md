@@ -32,7 +32,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Water intake structures| Water dams | Unknown | polygon | AMITIGRA | 
+| 1 | Water intake structures| Water micro dams | Unknown | polygon | AMITIGRA | 
 | 2 | Schools | Schools location within La Tigra | Unknown | point | Secretaría de Educación |
 | 3 | Trails | Turistic trails | Unknown | line | AMITIGRA |
 | 4 | Visitors Centers | Centers with personal from AMITIGRA | Unknown | point | AMITIGRA |
