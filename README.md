@@ -77,7 +77,8 @@ library(pnlt) #load pnlt package
 library(tmap) #tmap for mapping
 
 #plot villages from PNLT
-tm_shape(Villages)  +
+tm_shape(Villages
+)  +
   tm_layout(
     "Village Population in PNLT",
     legend.title.size=1,
@@ -93,7 +94,8 @@ tm_shape(Villages)  +
     legend.hist = TRUE,
     legend.z = 1
   ) + 
-  tm_borders(col="black") +
+  tm_borders(col="black"
+  ) +
   tm_compass(position = c(0.85,0.8), 
              type = "8star"
              ) +
@@ -103,7 +105,8 @@ tm_shape(Villages)  +
                color.light = "black",
                text.size = 0.8
                ) +
-  tm_grid(labels.cardinal = TRUE)
+  tm_grid(labels.cardinal = TRUE
+  )
 ```
 
 <p align="center">
