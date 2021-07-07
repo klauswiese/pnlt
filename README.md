@@ -28,7 +28,32 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 12 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | Holdridge 1970 |
 | 13 | Rivers | Water bodies | 1:50,000 | line | IGN |
 
+# Usage
 
+# Plot with tmap
+library(tmap)
+
+tm_shape(Villages) +
+  tm_polygons(
+    "POBTOT2001",
+    border.col = "grey70",
+    title = "Población en \nel 2001",
+    palette = "Reds",
+    alpha = 0.7,
+    legend.hist = TRUE,
+    legend.is.portrait = TRUE,
+    legend.z = 1
+  ) +
+  tm_layout(
+    "Village Population in PNLT",
+    legend.title.size=1,
+    legend.text.size = 0.6,
+    legend.position = c("left","bottom"),
+    legend.bg.alpha = 1) +
+  tm_compass() +
+  tm_scale_bar()```
+
+```
 
 
 ***
