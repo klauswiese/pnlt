@@ -31,9 +31,9 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 10 | Site Names | Outstanding names | 1:50,000 | point | IGN |
 | 11 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | Holdridge 1970 |
 | 12 | Rivers | Water bodies | 1:50,000 | line | IGN |
-| 13 | Trails | | Unknown | line | AMITIGRA |
-| 14 | Visitors Centers | | Unknown | point | AMITIGRA |
-| 15 | Roads | | Unknown | line | SOPTRAVI 2000 |
+| 13 | Trails | Turistic trails | Unknown | line | AMITIGRA |
+| 14 | Visitors Centers | Centers with personal from AMITIGRA | Unknown | point | AMITIGRA |
+| 15 | Roads | Road network with a development classification | Unknown | line | SOPTRAVI 2000 |
 
 # Usage
 
