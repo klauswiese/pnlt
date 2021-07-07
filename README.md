@@ -30,6 +30,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 
 # Usage
 
+```
 # Plot with tmap
 library(tmap)
 
@@ -52,9 +53,9 @@ tm_shape(Villages) +
     legend.bg.alpha = 1) +
   tm_compass() +
   tm_scale_bar()```
-
 ```
 
+<img src="inst/figures/aldeas.pngpng" align="right" width="300"/>
 
 ***
 # Credits
