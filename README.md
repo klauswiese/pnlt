@@ -1,5 +1,5 @@
 
-# pnlt <img src="inst/figures/pnlt.png" align="right" width="150"/>
+# pnlt <img src="inst/figures/pnlt.png" align="right" width="200"/>
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
