@@ -46,6 +46,18 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 2 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | Holdridge 1970 |
 | 3 | Rivers | Water bodies | 1:50,000 | line | IGN |
 
+## Fires
+
+| # | sf object | Details | Scale | Geometry | Source |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | Fires1998 | Fires from year 1998 | 30 meters pixel | polygon | K. Wiese 2020 |
+| 2 | Fires2000 | Fires from year 2000 | 30 meters pixel | polygon | K. Wiese 2020 |
+| 3 | Fires2001 | Fires from year 2001 | 30 meters pixel | polygon | K. Wiese 2020 |
+| 4 | Fires2011 | Fires from year 2011 | 30 meters pixel | polygon | K. Wiese 2020 |
+| 5 | Fires2020 | Fires from year 2020 | 10 meters pixel | polygon | K. Wiese 2020 |
+
+
+
 ## Miscellaneous
 
 | # | sf object | Details | Scale | Geometry | Source |
