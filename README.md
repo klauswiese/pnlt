@@ -21,7 +21,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 3 | Municipalities | Limits of 4 municipalities that convey in **La Tigra** | Unknown | polygon | INE 2001| 
 | 4 | Departments | Francisco Morazán department | Unknown | polygon | INE 2001| 
 | 5 | Micro-basins | Derived from the 30 meters SRTM digital elevation model | 1:114,000 | polygon | AMITIGRA 2020 | 
-| 6 | PNLT limits | national park limits from 1980 |Unknown |polygon | Gaceta 1980 |
+| 6 | PNLT limits | National park limits from 1980 |Unknown |polygon | Gaceta 1980 |
 | 7 | Water intake structures| Water dams | Unknown | polygon | AMITIGRA | 
 | 8 | Schools | Schools location within La Tigra | Unknown | point | Secretaría de Educación |
 | 9 | Hills | Hills names and elevation | Unknown | point | IGN |
