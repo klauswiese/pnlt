@@ -55,7 +55,8 @@ tm_shape(Villages) +
   tm_scale_bar()
   ```
 
-<img src="inst/figures/aldeas.png" align="right" width="300"/>
+<img src="inst/figures/aldeas.png" align="center" width="600"/>
+
 
 ***
 # Credits
