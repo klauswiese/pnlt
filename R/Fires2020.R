@@ -8,7 +8,7 @@ NULL
 
 #' "Fires from year 2020 in La Tigra National Park"
 #'
-#' A data set containing the fires from year 2011 in
+#' A data set containing the fires from year 2020 in
 #' La Tigra National Park, Honduras
 #'
 #' @source Digitized by K. Wiese from sentinel-2 images
