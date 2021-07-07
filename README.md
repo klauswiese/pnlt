@@ -30,15 +30,15 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 
 # Usage
 
-```
+```{r}
 # Plot with tmap
 library(tmap)
 
 tm_shape(Villages) +
   tm_polygons(
     "POBTOT2001",
-    border.col = "grey70",
-    title = "Población en \nel 2001",
+    border.col = "black",
+    title = "Population \n2001",
     palette = "Reds",
     alpha = 0.7,
     legend.hist = TRUE,
