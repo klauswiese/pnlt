@@ -45,7 +45,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 1 | Microbasins | Derived from the 30 meters SRTM digital elevation model | 1:114,000 | polygon | AMITIGRA 2020 | 
 | 2 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | Holdridge 1970 |
 | 3 | Rivers | Water bodies | 1:50,000 | line | IGN |
-| 4 | LULC2020 | Land use and land cover for year 2020 | 10 meter pixel | line | AMITIGRA 2020 |
+| 4 | LULC2020 | Land use and land cover for year 2020 | 10 meter pixel | polygon | AMITIGRA 2020 |
 
 ## Fires
 
