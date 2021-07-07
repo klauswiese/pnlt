@@ -106,8 +106,11 @@ tm_shape(Villages)  +
   tm_grid(labels.cardinal = TRUE)
 ```
 
-<img src="inst/figures/aldeas.png" align="center" width="600"/>
+  <img src="http://some_place.com/image.png" />
 
+<p align="center">
+<img src="inst/figures/aldeas.png" width="600"/>
+</p>
 
 ***
 # Credits
