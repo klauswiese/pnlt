@@ -31,7 +31,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 
 # Usage
 
-```{r}
+```r
 # load pnlt package 
 library(pnlt)
 
@@ -57,7 +57,7 @@ tm_shape(Villages) +
     legend.bg.alpha = 1) +
   tm_compass() +
   tm_scale_bar()
-  ```
+```
 
 <img src="inst/figures/aldeas.png" align="center" width="600"/>
 
