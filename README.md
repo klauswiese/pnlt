@@ -20,13 +20,12 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 4 | Departments | Francisco Morazán department | Unknown | polygon | INE 2001| 
 | 5 | Micro-basins | Derived from the 30 meters SRTM digital elevation model | 1:114,000 | polygon | AMITIGRA 2020 | 
 | 6 | PNLT limits | national park limits from 1980 |Unknown |polygon | Gaceta 1980 |
-| 7 | Geology | Geology information | 1:50,000 | polygon | IGN 1989 |
-| 8 | Water intake structures| Water dams | Unknown | polygon | AMITIGRA | 
-| 9 | Schools | Schools location within La Tigra | Unknown | point | Secretaría de Educación |
-| 10 | Hills | Hills names and elevation | Unknown | point | IGN |
-| 11 | Site Names | Outstanding names | 1:50,000 | point | IGN |
-| 12 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | Holdridge 1970 |
-| 13 | Rivers | Water bodies | 1:50,000 | line | IGN |
+| 7 | Water intake structures| Water dams | Unknown | polygon | AMITIGRA | 
+| 8 | Schools | Schools location within La Tigra | Unknown | point | Secretaría de Educación |
+| 9 | Hills | Hills names and elevation | Unknown | point | IGN |
+| 10 | Site Names | Outstanding names | 1:50,000 | point | IGN |
+| 11 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | Holdridge 1970 |
+| 12 | Rivers | Water bodies | 1:50,000 | line | IGN |
 
 # Usage
 
