@@ -52,10 +52,10 @@ tm_shape(Villages) +
     legend.position = c("left","bottom"),
     legend.bg.alpha = 1) +
   tm_compass() +
-  tm_scale_bar()```
-```
+  tm_scale_bar()
+  ```
 
-<img src="inst/figures/aldeas.pngpng" align="right" width="300"/>
+<img src="inst/figures/aldeas.png" align="right" width="300"/>
 
 ***
 # Credits
