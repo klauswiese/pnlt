@@ -6,11 +6,11 @@
 #' @aliases pnlt pnlt-package
 NULL
 
-#' "Municipalities in La Tigra National Park"
+#' "Schools in La Tigra National Park"
 #'
-#' A data set containing  the Municipalities in
+#' A data set containing the schools in
 #' La Tigra National Park, Honduras
 #'
-#' @source INE 2001
-#' @format Simple feature collection with 4 polygons
-"Municipalities"
+#' @source Secretaría de Educación
+#' @format Simple feature collection with points
+"Schools"
