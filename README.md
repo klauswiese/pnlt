@@ -1,7 +1,7 @@
 
 # pnlt <img src="inst/figures/pnlt.png" align="right" width="250"/>
 
-[![software]https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white]
+[![software](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)]
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
 **La Tigra** was declared a National Park in 1980, although it has existed as a protected area since the 70s, it is located in the Department of Francisco Morazán, in central Honduras, northeast of Tegucigalpa; have a total area of 24,040 hectares. Currently the PNLT is co-managed by Instituto de Conservación Forestal (ICF) and Fundación Amigos de **La Tigra** (AMITIGRA), in the past the municipalities of Santa Lucia, Valle de Ángeles and San Juan de Flores were also co-managers of the Park.
