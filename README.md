@@ -31,7 +31,10 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 # Usage
 
 ```{r}
-# Plot with tmap
+# load pnlt package 
+library(pnlt)
+
+# tmap to plot data
 library(tmap)
 
 tm_shape(Villages) +
