@@ -164,7 +164,7 @@ ggplot() +
 
 ## Convert **sf objects** to [gpkg](https://www.geopackage.org/) format
 
-Maybe some users will like to use this spatial data in other software like [QGIS](https://www.qgis.org/en/site/), this can be done covnerting from [rda](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) format to other spatial data formats such as [gpkg](https://www.geopackage.org/). The function **downloadLaTigra()** make this possible in one step. The data will be download into your working directory in a folder named **PNLTdata**, 5 gpkg spatial databases with the thematic groups used in the package.
+Maybe some users will like to use this spatial data in other software like [QGIS](https://www.qgis.org/en/site/), this can be done converting from [rda](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) format to other spatial data formats such as [gpkg](https://www.geopackage.org/). The function **downloadLaTigra()** make this possible in one step. The data will be download into your working directory in a folder named **PNLTdata**, 5 gpkg spatial databases with the thematic groups used in the package.
 
 ```r
 library(pnlt) #load spatial data package
