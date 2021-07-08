@@ -14,6 +14,7 @@
 The package pnlt is a compendium of spatial data from **La Tigra** National Park (PNLT by its acronym in Spanish), Honduras. This package can be install with:
 
 ```r
+#install.packages("devtools")
 library(devtools)
 install_github("klauswiese/pnlt")
 ```
