@@ -168,10 +168,10 @@ Maybe some users will like to use this spatial data in other software like [QGIS
 
 ```r
 library(pnlt) #load spatial data package
-getwd() #Will give you the directory in your computer where the data will be download.
+getwd() #Will give you the directory in your computer where the data will be downloaded.
 
 
-#call funtion to download information into PNLTdata folder in your working directory
+#call function to download information into PNLTdata folder in your working directory
 downloadLaTigra()
 ```
 
