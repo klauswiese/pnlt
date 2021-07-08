@@ -165,7 +165,7 @@ ggplot() +
 <img src="inst/figures/Comunidades.png" width="600"/>
 </p>
 
-## Convert **sf objects** to [gpkg](https://www.geopackage.org/) format
+## Convert **sf objects** to [geopackage](https://www.geopackage.org/) format
 
 Maybe some users will like to use this spatial data in other software like [QGIS](https://www.qgis.org/en/site/), this can be done converting from [rda](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) format to other spatial data formats such as [geopackage](https://www.geopackage.org/). The function **downloadLaTigra()** make this possible in one step. The data will be download into your working directory in a folder named **PNLTdata**, with 5 geopakage spatial databases with the thematic groups used in the package.
 
