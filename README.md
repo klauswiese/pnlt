@@ -142,7 +142,12 @@ ggplot() +
                               hjust=0.5, 
                               color = 'darkgreen',
                               face = 'bold')
-  )
+  )  +
+  annotation_scale() +
+  annotation_north_arrow(location = "tr", 
+                         which_north = "true", 
+                         style = north_arrow_fancy_orienteering
+                         )
 ```
 
 <p align="center">
