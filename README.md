@@ -127,18 +127,22 @@ library(ggplot2) #ggplot2 for mapping
 ggplot() + 
   geom_sf(data = PNLT, 
           fill = "darkgreen", 
-          color = "grey80") +
+          color = "grey80"
+          ) +
   geom_sf(data = Rivers, 
           color = 'darkblue', 
-          size = 0.5) +
+          size = 0.5
+          ) +
   geom_sf(data = Communities, 
           color="white",
           shape=15, 
           size=2,
-          stroke=FALSE) +
+          stroke=FALSE
+          ) +
   theme_light() + 
   coord_sf() + 
-  guides( colour = guide_legend()) +
+  guides( colour = guide_legend()
+  ) +
   ggtitle('La Tigra National Park Communities') +
   theme(plot.title = element_text(size= 20, 
                               hjust=0.5, 
