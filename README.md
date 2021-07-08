@@ -9,7 +9,10 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/klauswiese/pnlt/commits)
 <!-- badges: end -->
 
-**La Tigra** was declared a National Park in 1980, although it has existed as a protected area since the 70s, it is located in the Department of Francisco Morazán, in central Honduras, northeast of Tegucigalpa; have a total area of 24,040 hectares. Currently the PNLT is co-managed by Instituto de Conservación Forestal (ICF) and Fundación Amigos de **La Tigra** (AMITIGRA), in the past the municipalities of Santa Lucia, Valle de Ángeles and San Juan de Flores were also co-managers of the Park.
+**La Tigra** was declared a National Park in 1980, although it has existed as a protected area since the 70s, it is located in the Department of Francisco
+Morazán, in central Honduras, northeast of Tegucigalpa; have a total area of 24,040 hectares. Currently the PNLT is co-managed by Instituto de Conservación 
+Forestal (ICF) and Fundación Amigos de **La Tigra** (AMITIGRA), in the past the municipalities of Santa Lucia, Valle de Ángeles and Cantarranas were also 
+co-managers of the Park.
 
 The package pnlt is a compendium of spatial data from **La Tigra** National Park (PNLT by its acronym in Spanish), Honduras. This package can be install with:
 
@@ -168,7 +171,7 @@ Maybe some users will like to use this spatial data in other software like [QGIS
 
 ```r
 library(pnlt) #load spatial data package
-getwd() #Will give you the directory in your computer where the data will be downloaded.
+getwd() #Will give you the directory in your computer where the data will be stored.
 
 
 #call function to download information into PNLTdata folder in your working directory
