@@ -122,6 +122,7 @@ tm_shape(Villages
 # Libraries ----  
 library(pnlt) #load pnlt package 
 library(ggplot2) #ggplot2 for mapping
+library(ggspatial) #accessories to ggplot2
 
 #plot communities from PNLT
 ggplot() + 
