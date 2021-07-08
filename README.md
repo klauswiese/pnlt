@@ -162,6 +162,19 @@ ggplot() +
 <img src="inst/figures/Comunidades.png" width="600"/>
 </p>
 
+## Transform spatial to [gpkg](https://www.geopackage.org/) format
+
+Maybe some users will like to use this spatial data in other software like [QGIS](https://www.qgis.org/en/site/), this can be done transforming from [rda](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) format to other spatial data formats such as [gpkg](https://www.geopackage.org/). The fucntion **downloadLaTigra()** make this possible in one step. The data will be download into your working directory in a folder named **PNLTdata**, 5 gpkg data bases with the tematic agroupation here presented.
+
+```r
+library(pnlt) #load spatial data package
+getwd() #Will give you the directory in your computer where the data will be download.
+
+
+#call funtion to download information into PNLTdata folder in your working directory
+downloadLaTigra()
+```
+
 
 ***
 # Credits
