@@ -114,6 +114,43 @@ tm_shape(Villages
 </p>
 
 ***
+# Usage
+
+```r
+# Libraries ----  
+library(pnlt) #load pnlt package 
+library(ggplot2) #ggplot2 for mapping
+
+#plot communities from PNLT
+ggplot() + 
+  geom_sf(data = PNLT, 
+          fill = "darkgreen", 
+          color = "grey80") +
+  geom_sf(data = Rivers, 
+          color = 'darkblue', 
+          size = 0.5) +
+  geom_sf(data = Communities, 
+          color="white",
+          shape=15, 
+          size=2,
+          stroke=FALSE) +
+  theme_light() + 
+  coord_sf() + 
+  guides( colour = guide_legend()) +
+  ggtitle('La Tigra National Park Communities') +
+  theme(plot.title = element_text(size= 20, 
+                              hjust=0.5, 
+                              color = 'darkgreen',
+                              face = 'bold')
+  )
+```
+
+<p align="center">
+<img src="inst/figures/Comunidades.png" width="600"/>
+</p>
+
+
+***
 # Credits
 Hexagon Sticker created using package [hexSticker](https://github.com/GuangchuangYu/hexSticker) by [Guangchuang YU](https://yulab-smu.top)
 
