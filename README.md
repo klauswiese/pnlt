@@ -9,7 +9,7 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/klauswiese/pnlt/commits)
 <!-- badges: end -->
 
-[**La Tigra**](http://www.chmhonduras.org/index.php/acerca/ubicaciones/areas-protegidas/parque-nacional-la-tigra) was declared a National Park in 1980, although it has existed as a protected area since the 70s, it is located in the Department of Francisco
+[**La Tigra**](https://www.facebook.com/parquenacionallatigra/) was declared a National Park in 1980, although it has existed as a protected area since the 70s, it is located in the Department of Francisco
 Morazán, in central Honduras, northeast of Tegucigalpa; have a total area of 24,040 hectares. Currently the PNLT is co-managed by [Instituto de Conservación 
 Forestal (ICF)](https://icf.gob.hn/) and [Fundación Amigos de **La Tigra** (AMITIGRA)](https://www.amitigra.com/), in the past the municipalities of Santa Lucia, Valle de Ángeles and Cantarranas were also 
 co-managers of the Park.
