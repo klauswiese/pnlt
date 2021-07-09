@@ -27,9 +27,9 @@ install_github("klauswiese/pnlt")
 
 # Datasets
 
-All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geographic coordinate reference system (EPSG:4326), here is a list of available objects:
+All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [geographic coordinate reference system (EPSG:4326)](https://epsg.io/4326), here is a list of available objects:
 
-## Administrative limits
+## 1. Administrative limits
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -39,7 +39,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 4 | Departments | Francisco Morazán department | Unknown | polygon | INE 2001| 
 | 5 | PNLT | National park limits from 1980 |Unknown |polygon | Gaceta 1980 |
 
-## Development structures 
+## 2. Development structures 
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -49,7 +49,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 4 | Visitors Centers | Centers with personal from AMITIGRA | Unknown | point | AMITIGRA |
 | 5 | Roads | Road network with a development classification | Unknown | line | SOPTRAVI 2000 |
 
-## Natural resources
+## 3. Natural resources
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -58,7 +58,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 3 | Rivers | Water bodies | 1:50,000 | line | IGN |
 | 4 | LULC2020 | Land use and land cover for year 2020 | 10 meters pixel | polygon | AMITIGRA 2020 |
 
-## Fires
+## 4. Fires
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -68,9 +68,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 | 4 | Fires2011 | Fires from year 2011 | 30 meters pixel | polygon | K. Wiese 2020 |
 | 5 | Fires2020 | Fires from year 2020 | 10 meters pixel | polygon | K. Wiese 2020 |
 
-
-
-## Miscellaneous
+## 5. Miscellaneous
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -79,6 +77,8 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geo
 
 
 # Usage
+
+## Mapping
 
 ## [tmap](https://github.com/mtennekes/tmap) mapping
 
@@ -170,9 +170,11 @@ ggplot() +
 <img src="inst/figures/Comunidades.png" width="600"/>
 </p>
 
+# Download Datasets
+
 ## Convert **sf objects** to [geopackage](https://www.geopackage.org/) format
 
-Maybe some users will like to use this spatial data in other software like [QGIS](https://www.qgis.org/en/site/), this can be done converting from [rda](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) format to other spatial data formats such as [geopackage](https://www.geopackage.org/). The function **downloadLaTigra()** make this possible in one step. The data will be download into your working directory in a folder named **PNLTdata**, with 5 geopakage spatial databases with the thematic groups used in the package.
+Although I would prefer that we work our spatial analysis in R, because in this way we ensure the reproductivility and access the the great universe of R. I understand that some users will like to use this spatial data in other software like [QGIS](https://www.qgis.org/en/site/), this can be done converting from the **sf object**, store in the package **pnlt** in [rda](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) format, to other spatial data formats such as [geopackage](https://www.geopackage.org/). The function **downloadLaTigra()** make this possible in one step. The data will be download into your working directory in a folder named **PNLTdata**, with 5 geopakage spatial databases with the thematic groups used in the package.
 
 ```r
 library(pnlt) #load spatial data package
