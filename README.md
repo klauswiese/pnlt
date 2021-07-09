@@ -72,8 +72,8 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [ge
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Hills | Hills names and elevation | 1:50,000 | point | IGN |
-| 2 | Site Names | Outstanding names | 1:50,000 | point | IGN |
+| 1 | Hills | Hills names and elevation | 1:50,000 | point | [IGN](https://www.ign.hn/index.php) |
+| 2 | Site Names | Outstanding names | 1:50,000 | point | [IGN](https://www.ign.hn/index.php) |
 
 
 # Usage
