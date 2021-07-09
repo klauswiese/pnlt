@@ -9,7 +9,7 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/klauswiese/pnlt/commits)
 <!-- badges: end -->
 
-[**La Tigra**](https://www.facebook.com/parquenacionallatigra/) was declared a National Park in 1980, although it has existed as a protected area since the 70s, it is located in the Department of Francisco
+[**La Tigra**](https://www.facebook.com/parquenacionallatigra/) was declared a National Park in 1980, although it has existed as a [protected area since the 70s](https://tzibalnaah.unah.edu.hn/bitstream/handle/123456789/2374/19720304.pdf?sequence=2&isAllowed=y), it is located in the Department of Francisco
 Morazán, in central Honduras, northeast of Tegucigalpa; have a total area of 24,040 hectares. Currently the PNLT is co-managed by [Instituto de Conservación 
 Forestal (ICF)](https://icf.gob.hn/) and [Fundación Amigos de **La Tigra** (AMITIGRA)](https://www.amitigra.com/), in the past the municipalities of Santa Lucia, Valle de Ángeles and Cantarranas were also 
 co-managers of the Park.
@@ -37,7 +37,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [ge
 | 2 | Villages | Limits from villages | Unknown | polygon | [INE 2001](http://170.238.108.227/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001&lang=ESP) |
 | 3 | Municipalities | Limits of 4 municipalities that convey in **La Tigra** | Unknown | polygon | [INE 2001](http://170.238.108.227/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001&lang=ESP)| 
 | 4 | Departments | Francisco Morazán department | Unknown | polygon | [INE 2001](http://170.238.108.227/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001&lang=ESP)| 
-| 5 | PNLT | National park limits from 1980 |Unknown |polygon | Gaceta 1980 |
+| 5 | PNLT | National park limits from 1980 |Unknown |polygon | Decreto Ley 976-80 |
 
 ## 2. Development structures 
 
@@ -174,7 +174,7 @@ ggplot() +
 
 ## Convert **sf objects** to [geopackage](https://www.geopackage.org/) format
 
-Although I would prefer that we work our spatial analysis in R, because in this way we ensure the [reproductivility](https://ropensci.github.io/reproducibility-guide/sections/introduction/) and access the the great [R Ecosystem](https://cran.r-project.org/web/packages/available_packages_by_name.html). I understand that some users will like to use this spatial data in other software like [QGIS](https://www.qgis.org/en/site/), this can be done converting from the **sf object**, store in the package **pnlt** in [rda](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) format, to other spatial data formats such as [geopackage](https://www.geopackage.org/). The function **downloadLaTigra()** make this possible in one step. The data will be downloaded into your working directory in a folder named **PNLTdata**, with 5 geopakage spatial databases named after the thematic groups used in the package.
+Although I would prefer that we work our spatial analysis in R, because in this way we ensure the [reproductivility](https://ropensci.github.io/reproducibility-guide/sections/introduction/) and access the great [R Ecosystem](https://cran.r-project.org/web/packages/available_packages_by_name.html). I understand that some people will like to use this spatial data in other software like [QGIS](https://www.qgis.org/en/site/), this can be done converting from the **sf object**, store in the package **pnlt** in [rda](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) format, to other spatial data formats such as [geopackage](https://www.geopackage.org/). The function **downloadLaTigra()** make this possible in one step. The data will be downloaded into your working directory in a folder named **PNLTdata**, with 5 geopakage spatial databases named after the thematic groups used in the package.
 
 ```r
 library(pnlt) #load spatial data package
