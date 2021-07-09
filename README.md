@@ -14,6 +14,9 @@ Morazán, in central Honduras, northeast of Tegucigalpa; have a total area of 24
 Forestal (ICF) and Fundación Amigos de **La Tigra** (AMITIGRA), in the past the municipalities of Santa Lucia, Valle de Ángeles and Cantarranas were also 
 co-managers of the Park.
 
+
+# Installation
+
 The package pnlt is a compendium of spatial data from **La Tigra** National Park (PNLT by its acronym in Spanish), Honduras. This package can be install with:
 
 ```r
@@ -21,6 +24,8 @@ The package pnlt is a compendium of spatial data from **La Tigra** National Park
 library(devtools)
 install_github("klauswiese/pnlt")
 ```
+
+# Datasets
 
 All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with geographic coordinate reference system (EPSG:4326), here is a list of available objects:
 
