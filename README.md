@@ -33,10 +33,10 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [ge
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Communities | Groups of houses and farms | Unknown | point | INE 2001|
-| 2 | Villages | Limits from villages | Unknown | polygon | INE 2001 |
-| 3 | Municipalities | Limits of 4 municipalities that convey in **La Tigra** | Unknown | polygon | INE 2001| 
-| 4 | Departments | Francisco Morazán department | Unknown | polygon | INE 2001| 
+| 1 | Communities | Groups of houses and farms | Unknown | point | [INE 2001](http://170.238.108.227/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001&lang=ESP)|
+| 2 | Villages | Limits from villages | Unknown | polygon | [INE 2001](http://170.238.108.227/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001&lang=ESP) |
+| 3 | Municipalities | Limits of 4 municipalities that convey in **La Tigra** | Unknown | polygon | [INE 2001](http://170.238.108.227/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001&lang=ESP)| 
+| 4 | Departments | Francisco Morazán department | Unknown | polygon | [INE 2001](http://170.238.108.227/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001&lang=ESP)| 
 | 5 | PNLT | National park limits from 1980 |Unknown |polygon | Gaceta 1980 |
 
 ## 2. Development structures 
@@ -55,7 +55,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [ge
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Microbasins | Derived from the 30 meters SRTM digital elevation model | 1:114,000 | polygon | AMITIGRA 2020 | 
 | 2 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | Holdridge 1970 |
-| 3 | Rivers | Water bodies | 1:50,000 | line | IGN |
+| 3 | Rivers | Water bodies | 1:50,000 | line | [IGN](https://www.ign.hn/index.php) |
 | 4 | LULC2020 | Land use and land cover for year 2020 | 10 meters pixel | polygon | AMITIGRA 2020 |
 
 ## 4. Fires
