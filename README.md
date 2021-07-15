@@ -47,7 +47,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [ge
 | 2 | Schools | Schools location within La Tigra | Unknown | point | [Secretaría de Educación](http://estadisticas.se.gob.hn/see/busqueda.php) |
 | 3 | Trails | Turistic trails | Unknown | line | [AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) |
 | 4 | Visitors Centers | Centers with personal from AMITIGRA | Unknown | point | [AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) |
-| 5 | Roads | Road network with a development classification | Unknown | line | SOPTRAVI 2000 |
+| 5 | Roads | Road network with a development classification | Unknown | line | [SOPTRAVI 2000](https://es.wikipedia.org/wiki/Carreteras_de_Honduras) |
 
 ## 3. Natural resources
 
