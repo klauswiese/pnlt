@@ -14,6 +14,10 @@ Morazán, in central Honduras, northeast of Tegucigalpa; have a total area of 24
 Forestal (ICF)](https://icf.gob.hn/) and [Fundación Amigos de **La Tigra** (AMITIGRA)](https://www.amitigra.com/), in the past the municipalities of Santa Lucia, Valle de Ángeles and Cantarranas were also 
 co-managers of the Park.
 
+[`Installation`](#Installation) \| [`Datasets`](#Datasets) \|
+[`Usage`](#Usage) \| [`Download Datasets`](#Download Datasets)
+\| [`Credits`](#Credits)
+
 
 # Installation
 
