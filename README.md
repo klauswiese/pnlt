@@ -15,8 +15,7 @@ Forestal (ICF)](https://icf.gob.hn/) and [Fundación Amigos de **La Tigra** (AMI
 co-managers of the Park.
 
 [`Installation`](#Installation) \| [`Datasets`](#Datasets) \|
-[`Usage`](#Usage) \| [`Download Datasets`](#Download Datasets)
-\| [`Credits`](#Credits)
+[`Usage`](#Usage) \| [`Credits`](#Credits)
 
 
 # Installation
