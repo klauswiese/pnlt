@@ -7,7 +7,7 @@
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/klauswiese/pnlt/commits)
-[![HitCount](http://hits.dwyl.com/klauswiese/pnlt.svg)](http://hits.dwyl.com/klauswiese/pnlt) 
+![](https://visitor-badge.laobi.icu/badge?page_id=klauswiese.klauswiese/pnlt) 
 <!-- badges: end -->
 
 [**La Tigra**](https://www.facebook.com/parquenacionallatigra/) was declared a National Park in 1980, although it has existed as a [protected area since the 70s](https://tzibalnaah.unah.edu.hn/bitstream/handle/123456789/2374/19720304.pdf?sequence=2&isAllowed=y), it is located in the Department of Francisco
