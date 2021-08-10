@@ -48,7 +48,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [ge
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Water intake structures| Water micro dams | Unknown | polygon | [Fundación AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) | 
 | 2 | Schools | Schools location within La Tigra | Unknown | point | [Secretaría de Educación de Honduras](http://estadisticas.se.gob.hn/see/busqueda.php) |
-| 3 | Trails | Turistic trails | Unknown | line | [AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) |
+| 3 | Trails | Turistic trails | Unknown | line | [Fundación AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) |
 | 4 | Visitors Centers | Centers with personal from AMITIGRA | Unknown | point | [Fundación AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) |
 | 5 | Roads | Road network with a development classification | Unknown | line | [SOPTRAVI 2000](https://es.wikipedia.org/wiki/Carreteras_de_Honduras) |
 
