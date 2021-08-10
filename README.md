@@ -46,10 +46,10 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [ge
 
 | # | sf object | Details | Scale | Geometry | Source |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Water intake structures| Water micro dams | Unknown | polygon | [AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) | 
+| 1 | Water intake structures| Water micro dams | Unknown | polygon | [Fundación AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) | 
 | 2 | Schools | Schools location within La Tigra | Unknown | point | [Secretaría de Educación de Honduras](http://estadisticas.se.gob.hn/see/busqueda.php) |
 | 3 | Trails | Turistic trails | Unknown | line | [AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) |
-| 4 | Visitors Centers | Centers with personal from AMITIGRA | Unknown | point | [AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) |
+| 4 | Visitors Centers | Centers with personal from AMITIGRA | Unknown | point | [Fundación AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) |
 | 5 | Roads | Road network with a development classification | Unknown | line | [SOPTRAVI 2000](https://es.wikipedia.org/wiki/Carreteras_de_Honduras) |
 
 ## 3. Natural resources
@@ -59,7 +59,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [ge
 | 1 | Microbasins | Derived from the 30 meters SRTM digital elevation model | 1:114,000 | polygon | [Fundación AMITIGRA](https://acchonduras.files.wordpress.com/2014/07/pm-pnltfinal.pdf) | 
 | 2 | Holdridge | Holdrige Life Zone Classification | 1:1,000,000 | polygon | [Holdridge 1962](https://searchworks.stanford.edu/view/2788989) |
 | 3 | Rivers | Water bodies | 1:50,000 | line | [IGN](https://www.ign.hn/index.php) |
-| 4 | LULC2020 | Land use and land cover for year 2020 | 10 meters pixel | polygon | AMITIGRA 2020 |
+| 4 | LULC2020 | Land use and land cover for year 2020 | 10 meters pixel | polygon | Fundación AMITIGRA 2020 |
 
 ## 4. Fires
 
