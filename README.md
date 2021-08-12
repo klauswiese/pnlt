@@ -86,7 +86,7 @@ All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [ge
 ## [tmap](https://github.com/mtennekes/tmap) mapping
 
 ```r
-# Libraries
+# libraries
 library(pnlt) #load pnlt package 
 library(tmap) #tmap for mapping
 
@@ -131,7 +131,7 @@ tm_shape(Villages
 ## [ggplot2](https://ggplot2.tidyverse.org/) mapping
 
 ```r
-# Libraries  
+# libraries  
 library(pnlt) #load pnlt package 
 library(ggplot2) #ggplot2 for mapping
 library(ggspatial) #accessories to ggplot2
