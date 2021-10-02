@@ -30,7 +30,7 @@ install_github("klauswiese/pnlt")
 
 # Datasets
 
-All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [geographic coordinate reference system (EPSG:4326)](https://epsg.io/4326), here is a list of the available objects:
+All spatial data is an [**sf** object](https://r-spatial.github.io/sf/) with [geographic coordinate reference system](https://epsg.io/4326) (EPSG:4326), here is a list of the available objects:
 
 ## 1. Administrative limits
 
